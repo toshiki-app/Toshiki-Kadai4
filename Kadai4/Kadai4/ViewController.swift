@@ -2,9 +2,9 @@ import UIKit
 
 final class ViewController: UIViewController {
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet private weak var label: UILabel!
     
-    var number = 0
+    private var number = 0
 
     @IBAction func countUp() {
         number += 1
